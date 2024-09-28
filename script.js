@@ -12,12 +12,24 @@
 // true
 // and a null literal expression
 // null
+
 // STEP 3 - two examples of complex / variable expressions
 // let anExpression = 3 + 4
 // let anotherExpression = anExpression * 2
+
 // STEP 4 - Declare (but do not assign) 9 variables for the following identifiers: First Name, Last Name, Address, City, State, Zip Code, Your Age, Referral Source, May We Contact You. Use Camel Casing and Hungarian Notation when naming your identifiers.
 //
-// let strFirstName, strLastName, strAddress, strCity, strState, strZipCode, intYourAge, strReferralSource, blnMayWeContactYou
+// var strFirstName; 
+// var strLastName;
+// var strAddress;
+// var strCity;
+// var strState;
+// var strZipCode; 
+// var intYourAge;
+// var strReferralSource; 
+// var blnMayWeContactYou;
+
+
 // STEP 5 Take the 3 of the 9 variables that you created above and demonstrate 3 ways for declaring and assigning values to those variables.
 // 1.
 // let strFirstName
@@ -26,28 +38,33 @@
 // let strCity = 'San Diego'
 // 3. 
 // let strCity = 'San Diego', strState = 'CA'
+
 // STEP 6 Create a variable. Add a number and a string and display the coerced result in the browser’s console window.
-// let johnnyCashBirthDay = 26
-// alert('Johnny Cash was born on February ' + johnnyCashBirthDay + ', 1932')
+// let johnnyCashBirthDay = 26;
+// window.console.log('Johnny Cash was born on February ' + johnnyCashBirthDay + ', 1932');
+
 // STEP 7 Create two variables. For the first variable, add a Boolean and a string and display the coerced result. For the second variable, add a number and a Boolean and display the coerced result.
-// let blnMayWeContactYou = true, intYourAge = 99
-// alert('May we contact you?: ' + blnMayWeContactYou)
-// alert(intYourAge + true)
+// let blnMayWeContactYou = true, intYourAge = 99;
+// window.console.log('May we contact you?: ' + blnMayWeContactYou);
+// window.console.log(intYourAge + true);
+
 // STEP 8 Is the following string literal valid? If not, how would you fix it? 
 // let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I'm not sure about the former."'console.log(someString)
 // Not a string literal due to apostrophe in contraction. Fixed:
 // let someString = "Who once said, 'Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.'"
-// console.log(someString)
+// window.console.log(someString);
+
 // STEP 9 Create a variable that produces a null value in the console window. Then, create a variable that produces an undefined value in the console window.
-// let x = 100
-// x = null
-// console.log(x)
-// let y
-// console.log(y)
+// let x = 100;
+// x = null;
+// window.console.log(x);
+// let y;
+// window.console.log(y);
+
 // STEP 10 Use the unary typeof operator on various literals to return the following types within the console window: string, number, Boolean, object, and undefined.
 // console.log(typeof 'The Man in Black');
 // console.log(typeof 42);
-//console.log(typeof true);
+// console.log(typeof true);
 // console.log(typeof 42);
 // let car = {manufacturer:'Pontiac', color:'brown'}
 // console.log(typeof car)
@@ -84,18 +101,16 @@
 // alert('Hello ' + person + '.\nWelcome to the ' + course + ' class!');
 
 // STEP 17 Declare a variable called x and assign it a value of 10.
-// let x = 10
+// var x = 10;
 // Declare a variable called y and assign it a value of 20.
-// let y = 20
+// var y = 20;
 // Display the sum of those two numbers in the console window.
-// console.log(x + y)
+// window.console.log(x + y)
 
 // STEP 18 Declare a variable called x and assign it a value of 20.
-// let x = 20
+// var x = 20;
 // Add and assign 20 to that variable and display the result in the console window.
-// x += 20
-// console.log(x)
-// The result should be 40.
+// window.console.log(x+=20);
 
 // STEP 19 Declare a variable called x and assign it a value of 20.
 // let x = 20
