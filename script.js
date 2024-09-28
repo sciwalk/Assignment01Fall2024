@@ -44,7 +44,7 @@
 // console.log(x)
 // let y
 // console.log(y)
-// STEP .0 Use the unary typeof operator on various literals to return the following types within the console window: string, number, Boolean, object, and undefined.
+// STEP 10 Use the unary typeof operator on various literals to return the following types within the console window: string, number, Boolean, object, and undefined.
 // console.log(typeof 'The Man in Black');
 // console.log(typeof 42);
 //console.log(typeof true);
@@ -53,59 +53,70 @@
 // console.log(typeof car)
 // console.log(typeof x);
 
-// STEP .1 Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows:
+// STEP 11 Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows:
 
 // Hello Zak Ruvalcaba, welcome to the JavaScript class!
 
 // Substitute my name for your name. Although not necessary in practice, I want you to use 2 concatenation operators to construct this string of text. One after the text “Hello” and a second one after your name and before the comma.
 // alert('Hello ' + 'David Walker' + ', welcome to the JavaScript class!')
-// STEP .2 Declare a variable called name and set it equal to your name.
+
+// STEP 12 Declare a variable called name and set it equal to your name.
 // let myName = 'David Walker'
 // Substitute your name in the previous alert string with the variable instead.
 // alert('Hello ' + myName + ', welcome to the JavaScript class!')
-// STEP .3 Declare a variable called course and set it equal to “JavaScript”.
+
+// STEP 13 Declare a variable called course and set it equal to “JavaScript”.
 // let course = 'JavaScript'
 // Rework your alert string so that it displays the string of text but using the variables as opposed to hard coded text.
 // alert('Hello ' + myName + ', welcome to the' + course + ' class!')
-// STEP .4 Rework the above string so that a line break is added right before the word “Welcome”. Your alert box should display as follows:
+
+// STEP 14 Rework the above string so that a line break is added right before the word “Welcome”. Your alert box should display as follows:
 // Hello Zak Ruvalcaba.
 // Welcome to the JavaScript class!
 // alert('Hello ' + myName + '.\nWelcome to the ' + course + ' class!')
-// STEP .5 Replace the hardcoded string of your name with a prompt that asks the user for their name. The prompt’s response will now be captured in the name variable.
+
+// STEP 15 Replace the hardcoded string of your name with a prompt that asks the user for their name. The prompt’s response will now be captured in the name variable.
 // let person = prompt('Please enter your first and last name', 'Kelly Greene');
 // alert('Hello ' + person + '.\nWelcome to the ' + course + ' class!');
-// STEP .6 Replace the hardcoded string of the class you are taking with a prompt that asks the user for the class they are taking. The prompt’s response will now be captured in the course variable.
+
+// STEP 16 Replace the hardcoded string of the class you are taking with a prompt that asks the user for the class they are taking. The prompt’s response will now be captured in the course variable.
 // let course = prompt('Please enter the course you are taking', 'JavaScript')
 // alert('Hello ' + person + '.\nWelcome to the ' + course + ' class!');
-// STEP .7 Declare a variable called x and assign it a value of 10.
+
+// STEP 17 Declare a variable called x and assign it a value of 10.
 // let x = 10
 // Declare a variable called y and assign it a value of 20.
 // let y = 20
 // Display the sum of those two numbers in the console window.
 // console.log(x + y)
-// STEP .8 Declare a variable called x and assign it a value of 20.
+
+// STEP 18 Declare a variable called x and assign it a value of 20.
 // let x = 20
 // Add and assign 20 to that variable and display the result in the console window.
 // x += 20
 // console.log(x)
 // The result should be 40.
-// STEP .9 Declare a variable called x and assign it a value of 20.
+
+// STEP 19 Declare a variable called x and assign it a value of 20.
 // let x = 20
 // Multiply and assign 5 to that variable and display the result in the console window.
 // x *= 5
 // console.log(x)
 // The result should be 100.
-// STEP  ;0 Declare a variable called x and assign it a value that equals the remainder of 20 divided by 3.
+
+// STEP  20 Declare a variable called x and assign it a value that equals the remainder of 20 divided by 3.
 // let x = 20 % 3
 // Divide and assign 1 to that variable and display the result in the console window.
 // x /= 1
 // console.log(x)
 // The result should be 2. If you got 6.66 try again.
-// STEP  ;1 Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
+
+// STEP  21 Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
 // let value1 = prompt('Enter your first value');
 // let value2 = prompt('Enter your second value');
 // console.log(`At least one value is positive:`, value1 > 0 || value2 > 0);
-// STEP ;2 Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
+
+// STEP 22 Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
 // let value1 = prompt('Enter your first value');
 // let value2 = prompt('Enter your second value');
 // console.log('the values are not equal and are not of equal type', value1 !== value2);
