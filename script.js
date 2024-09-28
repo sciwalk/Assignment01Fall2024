@@ -113,25 +113,27 @@
 // window.console.log(x+=20);
 
 // STEP 19 Declare a variable called x and assign it a value of 20.
-// let x = 20
+// var x = 20;
 // Multiply and assign 5 to that variable and display the result in the console window.
-// x *= 5
-// console.log(x)
-// The result should be 100.
+// window.console.log(x*=5);
 
 // STEP  20 Declare a variable called x and assign it a value that equals the remainder of 20 divided by 3.
-// let x = 20 % 3
+// var x = 20 % 3;
 // Divide and assign 1 to that variable and display the result in the console window.
-// x /= 1
-// console.log(x)
-// The result should be 2. If you got 6.66 try again.
+// window.console.log(x/=1);
 
 // STEP  21 Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
-// let value1 = prompt('Enter your first value');
-// let value2 = prompt('Enter your second value');
-// console.log(`At least one value is positive:`, value1 > 0 || value2 > 0);
+// var value1 = 10
+// var value2 = 100
+// if (value1 > 1 || value2 < 10) {
+//     window.console.log("true");
+// } 
 
 // STEP 22 Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
-// let value1 = prompt('Enter your first value');
-// let value2 = prompt('Enter your second value');
-// console.log('the values are not equal and are not of equal type', value1 !== value2);
+// var value1 = 10
+// var value2 = 100
+// if (value1 === 10 && value2 !== 100) {
+//      window.console.log("true");
+// } else {
+//   window.console.log("false");
+// }
